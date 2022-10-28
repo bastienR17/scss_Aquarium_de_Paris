@@ -1,0 +1,104 @@
+  
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.693);
+ 
+  color: #fff;
+
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+header ul {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  margin: 20px;
+  padding: 60px;
+}
+
+header li {
+  margin: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 100px;
+}
+
+
+main {
+  background-image: url(img/eau-fond.jpg)
+}
+
+
+
+.text1{
+  display : flex;
+  text-align: center;
+background-color: rgba(255, 255, 255, 0.184);
+
+}
+
+.img2 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 100vh;
+}
+
+.text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 100px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  text-align: center;  
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 25px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
